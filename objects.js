@@ -15,18 +15,29 @@ var foods = {
 // you created above:
 // YOUR CODE HERE
 
+console.log(Object.keys(foods))
+
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
 // YOUR CODE HERE
+
+console.log(Object.values(foods))
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
 // YOUR CODE HERE
 
+console.log(foods.grapes)
+
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
 // YOUR CODE HERE
 
+foods.beans = 9
+
+console.log(foods.beans)
+
+console.log(Object.keys(foods))
 
 // -------------------
 // Part 2: Email
